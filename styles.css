@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    border: 2px solid black;
+    background-color: rgb(107, 105, 105);
+    border-radius: 5px;
+    width: 400px;
+    justify-content: center;
+    align-content: center; 
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    width: 360px;
+    border: 2px solid black;
+    background-color: azure;
+    margin-top: 3rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.last-operation {
+    min-height: 32px;
+    font-size: 20px;
+    text-align: end;
+}
+
+.result {
+    min-height: 64px;
+    font-size: 40px;
+    text-align: end;
+}
+
+.clear-delete {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn-grid {
+    display: grid;
+    margin: 2em 0 3em 0;
+}
+
+.btn-nums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.btn-grid span {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: azure;
+}
+
+#delete {
+     background-color: rgb(227, 142, 142);
+}
+
+#clear {
+    background-color: rgb(138, 138, 237);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .fa-github {
+    color: var(--font);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+  }
+

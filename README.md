@@ -1,2 +1,2 @@
 # web-calculator
-A web calculator made
+A web calculator
